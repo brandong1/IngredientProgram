@@ -24,6 +24,12 @@ class Ingredient
         case user_input
             when "1"
                 add_new_ingredient inventory
+            when "2"
+                shopping_list inventory
+            when "3"
+                break
+        end
+
 
 
 end
