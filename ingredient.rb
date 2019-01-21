@@ -29,7 +29,7 @@ class Ingredient
             when "3"
                 break
         end
-
+    end
         info
 
 end
