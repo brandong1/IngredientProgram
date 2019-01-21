@@ -10,7 +10,7 @@ class Ingredient
 end
 
 #Define an array that will hold an ingredient in each slot.
-inventory = []
+    inventory = []
     
     #Define a method for adding an ingredient to the inventory. Be sure to prompt the user and record their input for type, stock, and daily use.
     def add_new_ingredient inventory
@@ -31,20 +31,19 @@ inventory = []
         end
     end
 
-def info
-	puts "'1' to add an ingredient. '2' to print out shopping list '3' to exit"
-end
+    def info
+        puts "'1' to add an ingredient. '2' to print out shopping list '3' to exit"
+    end
 
-info
-while user_input = gets.strip
+    info
+    while user_input = gets.strip
 
-	case user_input
-		when "1"
-			add_new_ingredient inventory
-		when "2"
-			shopping_list inventory
-		when "3"
-			break
-	end
+        case user_input
+            when "1"
+                add_new_ingredient inventory
+            when "2"
+                shopping_list inventory
+            when "3"
+                break
+        end
 	info
-end
