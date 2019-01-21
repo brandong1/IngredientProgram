@@ -30,6 +30,6 @@ class Ingredient
                 break
         end
 
-
+        info
 
 end
