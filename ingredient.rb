@@ -6,7 +6,7 @@ class Ingredient
     def amount_needed 
 		@daily * 7 - @stock
 	end
-
+#test
 end
 
 #Define an array that will hold an ingredient in each slot.
